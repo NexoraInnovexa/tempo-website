@@ -25,8 +25,7 @@ export default function Download() {
 
           <a
             className="button button-primary"
-            href="/downloads/tempo.apk"
-            download="Tempo.apk"
+            href="https://github.com/NexoraInnovexa/tempo-website/releases/latest/download/tempo.apk"
           >
             Download for Android
             <ArrowDownToLine />
