@@ -23,7 +23,11 @@ export default function Download() {
             conversations.
           </p>
 
-          <a className="button button-primary" href="/downloads/tempo-android.apk">
+          <a
+            className="button button-primary"
+            href="/downloads/tempo.apk"
+            download="Tempo.apk"
+          >
             Download for Android
             <ArrowDownToLine />
           </a>
@@ -46,10 +50,7 @@ export default function Download() {
             coming soon.
           </p>
 
-          <span
-            className="button button-secondary"
-            aria-disabled="true"
-          >
+          <span className="button button-secondary" aria-disabled="true">
             iOS Coming Soon
           </span>
 
